@@ -48,16 +48,10 @@ class Televisor {
   }
   
   const tv01 = new Televisor();
-  tv01.switchOnOff();
-  
-  // Cambiar el volumen
-  tv01.volUp(); 
-  tv01.volUp(); 
-  tv01.volDown(); 
-  
-  // Cambiar el canal
-  tv01.channelUp(); 
-  tv01.channelDown(); 
-  
-  // Mostrar información actual
-  tv01.info(); 
+tv01.switchOnOff();
+tv01.switchOnOff();
+tv01.switchOnOff();
+tv01.pickChannel(45);
+tv01.volUp();
+tv01.channelUp();
+tv01.info();
